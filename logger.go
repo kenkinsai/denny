@@ -2,7 +2,7 @@ package denny
 
 import (
 	"context"
-	"github.com/whatvn/denny/log"
+	"github.com/kenkinsai/denny/log"
 )
 
 func GetLogger(ctx context.Context) *log.Log {

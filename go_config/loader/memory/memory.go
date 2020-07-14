@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/whatvn/denny/go_config/loader"
-	"github.com/whatvn/denny/go_config/reader"
-	"github.com/whatvn/denny/go_config/reader/json"
-	"github.com/whatvn/denny/go_config/source"
+	"github.com/kenkinsai/denny/go_config/loader"
+	"github.com/kenkinsai/denny/go_config/reader"
+	"github.com/kenkinsai/denny/go_config/reader/json"
+	"github.com/kenkinsai/denny/go_config/source"
 )
 
 type memory struct {

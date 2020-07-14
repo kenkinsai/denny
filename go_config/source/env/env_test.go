@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/whatvn/denny/go_config/source"
+	"github.com/kenkinsai/denny/go_config/source"
 )
 
 func TestEnv_Read(t *testing.T) {

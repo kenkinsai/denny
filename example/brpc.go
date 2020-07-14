@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 	"github.com/golang/protobuf/ptypes/empty"
+	"github.com/kenkinsai/denny"
+	pb "github.com/kenkinsai/denny/example/protobuf"
+	"github.com/kenkinsai/denny/middleware/http"
+	"github.com/kenkinsai/denny/naming/redis"
 	"github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-client-go"
 	"github.com/uber/jaeger-client-go/zipkin"
-	"github.com/whatvn/denny"
-	pb "github.com/whatvn/denny/example/protobuf"
-	"github.com/whatvn/denny/middleware/http"
-	"github.com/whatvn/denny/naming/redis"
 	"io"
 )
 

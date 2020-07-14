@@ -2,8 +2,8 @@ package redis
 
 import (
 	redisCli "github.com/go-redis/redis"
-	"github.com/whatvn/denny/log"
-	"github.com/whatvn/denny/naming"
+	"github.com/kenkinsai/denny/log"
+	"github.com/kenkinsai/denny/naming"
 	"google.golang.org/grpc/resolver"
 )
 

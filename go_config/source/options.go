@@ -3,8 +3,8 @@ package source
 import (
 	"context"
 
-	"github.com/whatvn/denny/go_config/encoder"
-	"github.com/whatvn/denny/go_config/encoder/json"
+	"github.com/kenkinsai/denny/go_config/encoder"
+	"github.com/kenkinsai/denny/go_config/encoder/json"
 )
 
 type Options struct {

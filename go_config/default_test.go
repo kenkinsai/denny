@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/whatvn/denny/go_config/source/env"
-	"github.com/whatvn/denny/go_config/source/file"
+	"github.com/kenkinsai/denny/go_config/source/env"
+	"github.com/kenkinsai/denny/go_config/source/file"
 )
 
 var (

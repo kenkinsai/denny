@@ -3,7 +3,7 @@ package file
 import (
 	"strings"
 
-	"github.com/whatvn/denny/go_config/encoder"
+	"github.com/kenkinsai/denny/go_config/encoder"
 )
 
 func format(p string, e encoder.Encoder) string {

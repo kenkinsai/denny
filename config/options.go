@@ -1,8 +1,8 @@
 package config
 
 import (
-	"github.com/whatvn/denny/go_config/source"
-	"github.com/whatvn/denny/go_config/source/etcd"
+	"github.com/kenkinsai/denny/go_config/source"
+	"github.com/kenkinsai/denny/go_config/source/etcd"
 )
 
 func WithEtcdAddress(addr ...string) source.Option {

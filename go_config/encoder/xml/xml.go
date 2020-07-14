@@ -3,7 +3,7 @@ package xml
 import (
 	"encoding/xml"
 
-	"github.com/whatvn/denny/go_config/encoder"
+	"github.com/kenkinsai/denny/go_config/encoder"
 )
 
 type xmlEncoder struct{}

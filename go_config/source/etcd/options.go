@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/whatvn/denny/go_config/source"
+	"github.com/kenkinsai/denny/go_config/source"
 )
 
 type addressKey struct{}

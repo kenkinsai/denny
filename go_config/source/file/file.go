@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/whatvn/denny/go_config/source"
+	"github.com/kenkinsai/denny/go_config/source"
 )
 
 type file struct {

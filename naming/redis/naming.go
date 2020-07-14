@@ -1,7 +1,7 @@
 package redis
 
 import (
-	"github.com/whatvn/denny/naming"
+	"github.com/kenkinsai/denny/naming"
 	"time"
 )
 

@@ -2,11 +2,11 @@ package config
 
 import (
 	"fmt"
-	goconfig "github.com/whatvn/denny/go_config"
-	"github.com/whatvn/denny/go_config/source"
-	"github.com/whatvn/denny/go_config/source/env"
-	"github.com/whatvn/denny/go_config/source/etcd"
-	"github.com/whatvn/denny/go_config/source/file"
+	goconfig "github.com/kenkinsai/denny/go_config"
+	"github.com/kenkinsai/denny/go_config/source"
+	"github.com/kenkinsai/denny/go_config/source/env"
+	"github.com/kenkinsai/denny/go_config/source/etcd"
+	"github.com/kenkinsai/denny/go_config/source/file"
 	"os"
 )
 

@@ -2,8 +2,8 @@ package http
 
 import (
 	"context"
-	"github.com/whatvn/denny"
-	"github.com/whatvn/denny/log"
+	"github.com/kenkinsai/denny"
+	"github.com/kenkinsai/denny/log"
 	"time"
 )
 

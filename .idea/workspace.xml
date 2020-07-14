@@ -168,10 +168,10 @@
     </findStrings>
     <replaceStrings>
       <replace>redis</replace>
-      <replace>github.com/whatvn/denny/dconfig</replace>
-      <replace>github.com/whatvn/denny/dconfig/</replace>
+      <replace>github.com/kenkinsai/denny/dconfig</replace>
+      <replace>github.com/kenkinsai/denny/dconfig/</replace>
       <replace>go_config</replace>
-      <replace>github.com/whatvn/denny/go_config</replace>
+      <replace>github.com/kenkinsai/denny/go_config</replace>
       <replace>denny</replace>
     </replaceStrings>
     <dirStrings>
@@ -353,7 +353,7 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/example/brpc.go" />
-      <package value="github.com/whatvn/denny" />
+      <package value="github.com/kenkinsai/denny" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -362,7 +362,7 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/example/cli.go" />
-      <package value="github.com/whatvn/denny" />
+      <package value="github.com/kenkinsai/denny" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -371,7 +371,7 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/example/config.go" />
-      <package value="github.com/whatvn/denny" />
+      <package value="github.com/kenkinsai/denny" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -380,17 +380,17 @@
       <working_directory value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <kind value="DIRECTORY" />
-      <package value="github.com/whatvn/denny" />
+      <package value="github.com/kenkinsai/denny" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/whatvn/denny/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+    <configuration name="go test github.com/kenkinsai/denny/cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="denny" />
       <working_directory value="$PROJECT_DIR$/cache" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/whatvn/denny/cache" />
+      <package value="github.com/kenkinsai/denny/cache" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -400,7 +400,7 @@
       <item itemvalue="Go Build.go build config.go" />
       <item itemvalue="Go Build.go build brpc.go" />
       <item itemvalue="Go Test.go test denny" />
-      <item itemvalue="Go Test.go test github.com/whatvn/denny/cache" />
+      <item itemvalue="Go Test.go test github.com/kenkinsai/denny/cache" />
     </list>
     <recent_temporary>
       <list>
@@ -427,11 +427,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="go_test_github_com_whatvn_denny_cache - 2019.07.29 at 17h 02m 57s.xml">
-      <configuration name="go test github.com/whatvn/denny/cache" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_kenkinsai_denny_cache - 2019.07.29 at 17h 02m 57s.xml">
+      <configuration name="go test github.com/kenkinsai/denny/cache" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="go_test_github_com_whatvn_denny_cache - 2019.07.29 at 17h 03m 15s.xml">
-      <configuration name="go test github.com/whatvn/denny/cache" configurationId="GoTestRunConfiguration" />
+    <history-entry file="go_test_github_com_kenkinsai_denny_cache - 2019.07.29 at 17h 03m 15s.xml">
+      <configuration name="go test github.com/kenkinsai/denny/cache" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="go_test_denny - 2019.07.31 at 15h 52m 19s.xml">
       <configuration name="go test denny" configurationId="GoTestRunConfiguration" />
@@ -439,8 +439,8 @@
     <history-entry file="go_test_denny - 2019.07.31 at 16h 48m 19s.xml">
       <configuration name="go test denny" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestWithScanToPointerArray_in_github_com_whatvn_denny_config - 2019.12.11 at 11h 05m 59s.xml">
-      <configuration name="TestWithScanToPointerArray in github.com/whatvn/denny/config" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestWithScanToPointerArray_in_github_com_kenkinsai_denny_config - 2019.12.11 at 11h 05m 59s.xml">
+      <configuration name="TestWithScanToPointerArray in github.com/kenkinsai/denny/config" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">

@@ -2,8 +2,8 @@ package etcd
 
 import (
 	"errors"
-	"github.com/whatvn/denny/log"
-	"github.com/whatvn/denny/naming"
+	"github.com/kenkinsai/denny/log"
+	"github.com/kenkinsai/denny/naming"
 	"go.etcd.io/etcd/clientv3"
 	"google.golang.org/grpc/resolver"
 	"strings"
@@ -19,7 +19,7 @@ type etcd struct {
 }
 
 // etcd
-// implement github.com/whatvn/denny/naming#Registry
+// implement github.com/kenkinsai/denny/naming#Registry
 // with 2 methods: Register and UnRegister
 func New(etcdAddrs, serviceName string) naming.Registry {
 

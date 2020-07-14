@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"github.com/coreos/etcd/mvcc/mvccpb"
-	"github.com/whatvn/denny/naming"
+	"github.com/kenkinsai/denny/naming"
 	"go.etcd.io/etcd/clientv3"
 	"google.golang.org/grpc/resolver"
 	"strings"

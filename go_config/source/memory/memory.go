@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/whatvn/denny/go_config/source"
+	"github.com/kenkinsai/denny/go_config/source"
 )
 
 type memory struct {

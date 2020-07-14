@@ -4,8 +4,8 @@ package loader
 import (
 	"context"
 
-	"github.com/whatvn/denny/go_config/reader"
-	"github.com/whatvn/denny/go_config/source"
+	"github.com/kenkinsai/denny/go_config/reader"
+	"github.com/kenkinsai/denny/go_config/source"
 )
 
 // Loader manages loading sources

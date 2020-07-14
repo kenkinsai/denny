@@ -1,14 +1,14 @@
 package main
 
 import (
+	"github.com/kenkinsai/denny/middleware/ot"
 	"github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-client-go"
 	zk "github.com/uber/jaeger-client-go/transport/zipkin"
 	"github.com/uber/jaeger-client-go/zipkin"
-	"github.com/whatvn/denny/middleware/ot"
 
-	"github.com/whatvn/denny"
-	"github.com/whatvn/denny/middleware"
+	"github.com/kenkinsai/denny"
+	"github.com/kenkinsai/denny/middleware"
 )
 
 type zController struct {

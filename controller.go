@@ -2,7 +2,7 @@ package denny
 
 import (
 	"github.com/gin-gonic/gin/binding"
-	"github.com/whatvn/denny/log"
+	"github.com/kenkinsai/denny/log"
 )
 
 type controller interface {

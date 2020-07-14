@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"github.com/whatvn/denny/go_config/reader"
+	"github.com/kenkinsai/denny/go_config/reader"
 )
 
 type value struct{}

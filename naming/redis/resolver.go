@@ -2,7 +2,7 @@ package redis
 
 import (
 	"errors"
-	"github.com/whatvn/denny/naming"
+	"github.com/kenkinsai/denny/naming"
 	"google.golang.org/grpc/resolver"
 	"strings"
 	"time"

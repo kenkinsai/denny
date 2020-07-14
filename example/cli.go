@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/whatvn/denny/example/protobuf"
-	"github.com/whatvn/denny/naming"
-	"github.com/whatvn/denny/naming/redis"
+	"github.com/kenkinsai/denny/example/protobuf"
+	"github.com/kenkinsai/denny/naming"
+	"github.com/kenkinsai/denny/naming/redis"
 	"google.golang.org/grpc"
 )
 

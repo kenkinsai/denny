@@ -3,7 +3,7 @@ package denny
 import (
 	"context"
 	"github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"
-	grpc_middleware "github.com/whatvn/denny/middleware/grpc"
+	grpc_middleware "github.com/kenkinsai/denny/middleware/grpc"
 	"google.golang.org/grpc"
 )
 

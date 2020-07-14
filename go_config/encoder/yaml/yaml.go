@@ -2,7 +2,7 @@ package yaml
 
 import (
 	"github.com/ghodss/yaml"
-	"github.com/whatvn/denny/go_config/encoder"
+	"github.com/kenkinsai/denny/go_config/encoder"
 )
 
 type yamlEncoder struct{}

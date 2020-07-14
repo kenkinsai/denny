@@ -1,12 +1,12 @@
 package reader
 
 import (
-	"github.com/whatvn/denny/go_config/encoder"
-	"github.com/whatvn/denny/go_config/encoder/hcl"
-	"github.com/whatvn/denny/go_config/encoder/json"
-	"github.com/whatvn/denny/go_config/encoder/toml"
-	"github.com/whatvn/denny/go_config/encoder/xml"
-	"github.com/whatvn/denny/go_config/encoder/yaml"
+	"github.com/kenkinsai/denny/go_config/encoder"
+	"github.com/kenkinsai/denny/go_config/encoder/hcl"
+	"github.com/kenkinsai/denny/go_config/encoder/json"
+	"github.com/kenkinsai/denny/go_config/encoder/toml"
+	"github.com/kenkinsai/denny/go_config/encoder/xml"
+	"github.com/kenkinsai/denny/go_config/encoder/yaml"
 )
 
 type Options struct {

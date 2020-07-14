@@ -4,7 +4,7 @@ package reader
 import (
 	"time"
 
-	"github.com/whatvn/denny/go_config/source"
+	"github.com/kenkinsai/denny/go_config/source"
 )
 
 // Reader is an interface for merging changesets

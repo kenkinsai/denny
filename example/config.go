@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/whatvn/denny/config"
-	"github.com/whatvn/denny/log"
+	"github.com/kenkinsai/denny/config"
+	"github.com/kenkinsai/denny/log"
 	"os"
 	"path/filepath"
 	"time"

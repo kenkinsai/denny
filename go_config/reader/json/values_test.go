@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/whatvn/denny/go_config/source"
+	"github.com/kenkinsai/denny/go_config/source"
 )
 
 func TestValues(t *testing.T) {

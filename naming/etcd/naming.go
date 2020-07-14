@@ -2,7 +2,7 @@ package etcd
 
 import (
 	"context"
-	"github.com/whatvn/denny/naming"
+	"github.com/kenkinsai/denny/naming"
 	"go.etcd.io/etcd/clientv3"
 	"time"
 )

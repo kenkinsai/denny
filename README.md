@@ -1,8 +1,8 @@
 # denny
 
 common http/grpc server which simplify request handling and logging by combining libraries, framework to be able to 
-- support both http and grpc in one controller, write once, support both protocol. See [example](https://github.com/whatvn/denny/blob/master/example/brpc.go)
-- support class base request controller, one controller for one handler, **or** you can describe your service in grpc and impelement grpc service, denny will then support HTTP/gRPC when you start it in brpc mode, see [example](https://github.com/whatvn/denny/blob/master/example/brpc.go)
+- support both http and grpc in one controller, write once, support both protocol. See [example](https://github.com/kenkinsai/denny/blob/master/example/brpc.go)
+- support class base request controller, one controller for one handler, **or** you can describe your service in grpc and impelement grpc service, denny will then support HTTP/gRPC when you start it in brpc mode, see [example](https://github.com/kenkinsai/denny/blob/master/example/brpc.go)
 - make cache usage simpler
 - use open tracing  
 - make config reader simpler
@@ -53,9 +53,9 @@ import (
 	"context"
 	"fmt"
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/whatvn/denny/example/protobuf"
-	"github.com/whatvn/denny/naming/etcd"
-	"github.com/whatvn/denny/naming"
+	"github.com/kenkinsai/denny/example/protobuf"
+	"github.com/kenkinsai/denny/naming/etcd"
+	"github.com/kenkinsai/denny/naming"
 	"google.golang.org/grpc"
 )
 
@@ -106,9 +106,9 @@ import (
 	"context"
 	"fmt"
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/whatvn/denny/example/protobuf"
-	"github.com/whatvn/denny/naming/redis"
-	"github.com/whatvn/denny/naming"
+	"github.com/kenkinsai/denny/example/protobuf"
+	"github.com/kenkinsai/denny/naming/redis"
+	"github.com/kenkinsai/denny/naming"
 	"google.golang.org/grpc"
 )
 
@@ -136,10 +136,10 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-client-go"
 	"github.com/uber/jaeger-client-go/zipkin"
-	"github.com/whatvn/denny"
-	pb "github.com/whatvn/denny/example/protobuf"
-	"github.com/whatvn/denny/middleware/http"
-	"github.com/whatvn/denny/naming/etcd"
+	"github.com/kenkinsai/denny"
+	pb "github.com/kenkinsai/denny/example/protobuf"
+	"github.com/kenkinsai/denny/middleware/http"
+	"github.com/kenkinsai/denny/naming/etcd"
 	"io"
 )
 
@@ -265,8 +265,8 @@ func main() {
 package main
 
 import (
-	"github.com/whatvn/denny"
-	"github.com/whatvn/denny/middleware/http"
+	"github.com/kenkinsai/denny"
+	"github.com/kenkinsai/denny/middleware/http"
 )
 
 type xController struct {
@@ -304,7 +304,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/whatvn/denny/config"
+	"github.com/kenkinsai/denny/config"
 	"os"
 	"path/filepath"
 	"time"

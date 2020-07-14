@@ -4,10 +4,10 @@ package config
 import (
 	"context"
 
-	"github.com/whatvn/denny/go_config/loader"
-	"github.com/whatvn/denny/go_config/reader"
-	"github.com/whatvn/denny/go_config/source"
-	"github.com/whatvn/denny/go_config/source/file"
+	"github.com/kenkinsai/denny/go_config/loader"
+	"github.com/kenkinsai/denny/go_config/reader"
+	"github.com/kenkinsai/denny/go_config/source"
+	"github.com/kenkinsai/denny/go_config/source/file"
 )
 
 // Config is an interface abstraction for dynamic configuration
